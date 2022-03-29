@@ -26,6 +26,9 @@ function AppRoutes() {
 				when={isLoggedIn}
 				to={'/auth'}
 			/>
+      {/* <Route path={'/profile'}>
+        <ProfilePage/>
+      </Route> */}
 		</Switch>
 	)
 }
